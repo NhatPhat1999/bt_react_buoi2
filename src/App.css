@@ -1,0 +1,46 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 13px;
+  
+}
+.App {
+  text-align: center;background-color: #7f7f7f;
+  padding-top: 1rem;
+}
+.model{
+  position: relative;
+}
+.activeImg{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-51%);
+  width: 170px;
+  opacity: 0.5;
+}
+.over{
+  position: absolute;
+  bottom:0;
+  width: 300px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: left;
+  background-color: rgba(241, 186, 118, 0.37);
+  padding: 10px 10px 0 10px; 
+  display:none;
+}
+.over h3{
+  font-weight: 700;
+  color: rgb(91, 91, 215);
+}
+.over p{
+  color: white;
+  font-weight: 700;
+}
+.container {
+  width: 80%;
+  background-color: antiquewhite;
+  padding: 10px;
+}
